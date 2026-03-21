@@ -24,75 +24,99 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" media="screen">
   <style>
+    body {
+      font-family: Suisse Works, Georgia, ui-serif;
+      color: #000001
+    }
     h1 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 30px;
       line-height: 16px;
+      color: #0f172a
+    }
+    h2 {
+      font-family: Europa Grotesk SH, Arial Black, sans-serif;
+      font-size: 24px;
+      line-height: 12px;
+      color: #0f172a
+    }
+    h3 {
+      font-family: Europa Grotesk SH, Arial Black, sans-serif;
+      font-size: 20px;
+      line-height: 8px;
       color: #0f172a;
+      margin: 0;
+      margin-bottom: 16px
     }
     h4 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 18px;
       line-height: 24px;
-      color: #0f172a;
+      color: #0f172a
     }
     h5 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 16px;
       line-height: 20px;
-      color: #0f172a;
+      color: #0f172a
     }
     h6 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 16px;
       line-height: 20px;
       text-transform: uppercase;
-      color: #0f172a;
+      color: #0f172a
     }
     @media (max-width: 600px) {
       h1 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 24px !important;
-        line-height: 32px !important;
+        line-height: 32px !important
       }
       h2 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 20px !important;
-        line-height: 28px !important;
+        line-height: 28px !important
       }
       h3 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 18px !important;
-        line-height: 24px !important;
+        line-height: 24px !important
       }
       h4 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 16px !important;
-        line-height: 20px !important;
+        line-height: 20px !important
       }
       h5 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
-        font-size: 14px !important;
+        font-size: 14px !important
       }
       h6 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
-        font-size: 14px !important;
+        font-size: 14px !important
       }
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      margin-bottom: 16px
     }
     ul,
     ol {
-      line-height: 24px;
+      line-height: 24px
     }
     blockquote {
       margin: 0;
       margin-bottom: 32px;
       padding-left: 16px;
-      border-left: 4px solid;
+      border-left: 4px solid
     }
     blockquote p {
       margin: 0;
       font-size: 18px;
-      line-height: 28px;
+      line-height: 28px
     }
     hr {
       height: 1px;
@@ -100,7 +124,16 @@
       background-color: #cbd5e1;
       color: #cbd5e1;
       margin-top: 32px;
-      margin-bottom: 32px;
+      margin-bottom: 32px
+    }
+    a {
+      display: block;
+      border-radius: 6px;
+      border-width: 1px
+    }
+    img {
+      max-width: 100%;
+      vertical-align: middle
     }
     pre {
       margin-bottom: 24px;
@@ -116,7 +149,7 @@
       tab-size: 2;
       word-break: normal;
       word-spacing: normal;
-      word-wrap: normal;
+      word-wrap: normal
     }
     :not(pre) > code {
       border-radius: 4px;
@@ -130,7 +163,102 @@
       border-style: solid;
       border-color: #e2e8f0;
       background-color: #f8fafc;
-      color: #ec4899;
+      color: #ec4899
+    }
+    .m-0 {
+      margin: 0 !important
+    }
+    .mb-2 {
+      margin-bottom: 8px !important
+    }
+    .w-1-2 {
+      width: 50% !important
+    }
+    .w-600px {
+      width: 600px !important
+    }
+    .w-full {
+      width: 100% !important
+    }
+    .max-w-0 {
+      max-width: 0 !important
+    }
+    .max-w-full {
+      max-width: 100% !important
+    }
+    .rounded-xl {
+      border-radius: 12px !important
+    }
+    .bg-_ffffff {
+      background-color: #ffffff !important
+    }
+    .bg-white {
+      background-color: #fffffe !important
+    }
+    .p-0 {
+      padding: 0 !important
+    }
+    .px-5 {
+      padding-left: 20px !important;
+      padding-right: 20px !important
+    }
+    .px-8 {
+      padding-left: 32px !important;
+      padding-right: 32px !important
+    }
+    .pb-0_5 {
+      padding-bottom: 2px !important
+    }
+    .pb-2 {
+      padding-bottom: 8px !important
+    }
+    .pb-5 {
+      padding-bottom: 20px !important
+    }
+    .pb-8 {
+      padding-bottom: 32px !important
+    }
+    .text-center {
+      text-align: center !important
+    }
+    .text-right {
+      text-align: right !important
+    }
+    .align-top {
+      vertical-align: top !important
+    }
+    .font-body {
+      font-family: Suisse Works, Georgia, ui-serif !important
+    }
+    .font-display {
+      font-family: Europa Grotesk SH, Arial Black, sans-serif !important
+    }
+    .text-lg {
+      font-size: 18px !important
+    }
+    .text-sm {
+      font-size: 14px !important
+    }
+    .italic {
+      font-style: italic !important
+    }
+    .text-black {
+      color: #000001 !important
+    }
+    .mso-font-width-150pc {
+      mso-font-width: 150%
+    }
+    .-webkit-font-smoothing-antialiased {
+      -webkit-font-smoothing: antialiased !important
+    }
+    .border-left-3px_solid__000 {
+      border-left: 3px solid #000 !important
+    }
+    .border-right-3px_solid__000 {
+      border-right: 3px solid #000 !important
+    }
+    .word-break-break-word {
+      word-break: break-word !important
     }
     @font-face {
       font-family: 'Europa Grotesk SH';
@@ -146,75 +274,83 @@
       font-weight: 700;
       font-style: normal;
     }
+    p,
+    h1,
+    h2,
+    h3,
+    li,
+    td {
+      color: #000000 !important;
+    }
     @media (max-width: 600px) {
       .sm-block {
-        display: block !important;
+        display: block !important
       }
       .sm-w-12 {
-        width: 48px !important;
+        width: 48px !important
       }
       .sm-w-full {
-        width: 100% !important;
+        width: 100% !important
       }
       .sm-px-0 {
         padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-right: 0 !important
       }
       .sm-px-4 {
         padding-left: 16px !important;
-        padding-right: 16px !important;
+        padding-right: 16px !important
       }
       .sm-pb-8 {
-        padding-bottom: 32px !important;
+        padding-bottom: 32px !important
       }
     }
   </style>
 </head>
-<body style="font-family: Suisse Works, Georgia, ui-serif; margin: 0; width: 100%; background-color: #ffffff; padding: 0; color: #000001; -webkit-font-smoothing: antialiased; word-break: break-word;">
-  <div align="center" role="article" aria-roledescription="email" lang="en" class="sm-px-4" aria-label="NUBUsletter März 2026" style="background-color: #ffffff">
+<body class="text-black m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-_ffffff">
+  <div align="center" role="article" aria-roledescription="email" lang="en" class="sm-px-4 bg-_ffffff" aria-label="NUBUsletter März 2026">
     <div role="separator" style="true">&zwj;</div>
     <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
-    <table style="border-left: 3px solid #000; border-right: 3px solid #000;" cellpadding="0" cellspacing="0" role="none">
+    <table class="border-left-3px_solid__000 border-right-3px_solid__000" cellpadding="0" cellspacing="0" role="none">
       <tr>
-        <td style="width: 600px; max-width: 100%; border-radius: 12px; background-color: #fffffe; padding-bottom: 32px; color: #000001;">
-          <table style="width: 100%;" cellpadding="0" cellspacing="0" role="none">
+        <td class="w-600px max-w-full pb-8 bg-white rounded-xl text-black">
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="sm-px-4" style="max-width: 0; padding-left: 20px; padding-right: 20px">
-                <div style="text-align: center;">
-                  <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="300" alt="Maizzle" style="max-width: 100%; vertical-align: middle; padding-bottom: 20px;">
+              <td class="px-5 sm-px-4 max-w-0">
+                <div class="text-center">
+                  <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="300" alt="Maizzle" class="pb-5">
                   <div role="separator" style="true">&zwj;</div>
                   <div role="separator" style="line-height: NaN;border-top:3px solid #000000;{{}}">&zwj;</div>
                 </div>
               </td>
             </tr>
           </table>
-          <table style="width: 100%;" cellpadding="0" cellspacing="0" role="none">
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="sm-px-4" style="max-width: 0; padding-left: 20px; padding-right: 20px">
-                <h3 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 20px; line-height: 8px; color: #0f172a; margin: 0 0 16px">März 2026</h3>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;"><em>Liebe Freund*Innen, liebe Träumer*Innen,</em></p>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">Es gibt Träume die kehren immer wieder. Und so erwachen wir nächsten Monat in unserem 10-jährigen J<span style="font-family: Europa Grotesk SH, Arial Black, sans-serif;">UBU</span>läum. Angefangen mit einer ersten musikalisch-tänzerischen Interpretation von B. A. Zimmermanns Klaviertrio “Présence”, folgte eine immer kollektivere Herangehensweise, die in der Trilogie “Mutants in Music” mündete. In diesen 10 Jahren kooperierten wir mit fantastischen Künstler*Innen wie Huihui Cheng, Ui Kyung Lee, Naïma Mazic, Diego Ramos Rodríguez, Valerie Wehrens und vielen mehr.
+              <td class="px-5 sm-px-4 max-w-0">
+                <h3>März 2026</h3>
+                <p><em>Liebe Freund*Innen, liebe Träumer*Innen,</em></p>
+                <p>Es gibt Träume die kehren immer wieder. Und so erwachen wir nächsten Monat in unserem 10-jährigen J<span class="font-display">UBU</span>läum. Angefangen mit einer ersten musikalisch-tänzerischen Interpretation von B. A. Zimmermanns Klaviertrio “Présence”, folgte eine immer kollektivere Herangehensweise, die in der Trilogie “Mutants in Music” mündete. In diesen 10 Jahren kooperierten wir mit fantastischen Künstler*Innen wie Huihui Cheng, Ui Kyung Lee, Naïma Mazic, Diego Ramos Rodríguez, Valerie Wehrens und vielen mehr.
                   Wir spielten bei den Schwetzinger Festspielen, im Konservatorium Athen, beim sounddance Festival in Berlin und seit 2022 die “Mutants in Music” Reihe regelmäßig in Köln, Frankfurt und Hamburg. Außerdem verbrachten wir inspirierende Residenzen in der Villa Massimo in Rom, so wie im Buchnerhof in Südtirol.</p>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;"><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/hero-image.jpg" alt="Ubu-Ensemblefoto" width="600" height="300" object style="max-width: 100%; vertical-align: middle;"></p>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">Wir erinnern uns an viele liebe Weggefährt*Innen und Förderer und sagen jetzt schon einmal Danke für 10 traumhafte Jahre.</p>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">Wir freuen uns, dieses Jahr eine überarbeitete Version unseres Stückes “Dreamteam” bei ORBIT, dem Kölner Festival für Aktuelles Musiktheater zu zeigen. Mit ORBIT wird eine Kunstgattung gefeiert, die vom Blick über den eigenen Tellerrand lebt: Hier wird erprobt, mit den eigenen Grenzen umzugehen und festgefahrene Hör- und Sehgewohnheiten zu hinterfragen. Ein Ort also, an dem wir uns als interdisziplinäres Ensemble zwischen Tanz und Musik sehr willkommen heißen.
+                <p><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/hero-image.jpg" alt="Ubu-Ensemblefoto" width="600" height="300" object></p>
+                <p>Wir erinnern uns an viele liebe Weggefährt*Innen und Förderer und sagen jetzt schon einmal Danke für 10 traumhafte Jahre.</p>
+                <p>Wir freuen uns, dieses Jahr eine überarbeitete Version unseres Stückes “Dreamteam” bei ORBIT, dem Kölner Festival für Aktuelles Musiktheater zu zeigen. Mit ORBIT wird eine Kunstgattung gefeiert, die vom Blick über den eigenen Tellerrand lebt: Hier wird erprobt, mit den eigenen Grenzen umzugehen und festgefahrene Hör- und Sehgewohnheiten zu hinterfragen. Ein Ort also, an dem wir uns als interdisziplinäres Ensemble zwischen Tanz und Musik sehr willkommen heißen.
                   “Dreamteam” ist eine sportliche Auseinandersetzung mit Schlaf und verbindet surreale Performance mit sample-basierter Improvisation. Unserem Wunsch nach einer mehr und mehr barrierefreien und inklusiven Öffnung unserer Stücke, kommen wir mit dieser Wiederaufführung einen Schritt näher: Matthias Ranner, ein Tauber Musiker aus München, ist zu uns gestoßen und bringt seine Perspektive auf unser Thema “Dreamteam” auf die Bühne.</p>
                 <div role="separator" style="true">&zwj;</div>
                 <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
-                <h2 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 24px; line-height: 12px; color: #0f172a">TERMINE beim ORBIT Festival</h2>
+                <h2>TERMINE beim ORBIT Festival</h2>
                 <table cellpadding="0" cellspacing="0" role="none">
                   <tr>
-                    <td valign="top" style="width: 50%;">
+                    <td valign="top" class="w-1-2">
                       <div>
                         <table cellpadding="0" cellspacing="0" role="none">
                           <tr>
-                            <td class="font-body" style="padding-bottom: 2px; font-family: Suisse Works, Georgia, ui-serif; font-size: 18px;">25.04.2026, 21:00</td>
+                            <td class="font-body text-lg pb-0_5">25.04.2026, 21:00</td>
                           </tr>
                           <tr>
-                            <td class="font-body" style="padding-bottom: 2px; font-family: Suisse Works, Georgia, ui-serif; font-style: italic;">mit anschließendem Umtrunk</td>
+                            <td class="font-body italic pb-0_5">mit anschließendem Umtrunk</td>
                           </tr>
                           <tr>
-                            <td style="padding-bottom: 8px; font-family: Europa Grotesk SH, Arial Black, sans-serif;">Studio MusikFabrik im Mediapark</td>
+                            <td class="font-display pb-2">Studio MusikFabrik im Mediapark</td>
                           </tr>
                         </table>
                         <div>
@@ -222,26 +358,26 @@
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                          <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                            <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                          <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                            <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                             <span style="mso-text-raise: 16px">Tickets</span>
-                            <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                            <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                           </a>
                           <!--[if mso]></v:roundrect><![endif]-->
                         </div>
                       </div>
                     </td>
-                    <td valign="top" style="width: 50%;">
+                    <td valign="top" class="w-1-2">
                       <div>
                         <table cellpadding="0" cellspacing="0" role="none">
                           <tr>
-                            <td class="font-body" style="padding-bottom: 2px; font-family: Suisse Works, Georgia, ui-serif; font-size: 18px;">26.04.2026, 17:00</td>
+                            <td class="font-body text-lg pb-0_5">26.04.2026, 17:00</td>
                           </tr>
                           <tr>
-                            <td class="font-body" style="padding-bottom: 2px; font-family: Suisse Works, Georgia, ui-serif; font-style: italic;">Dreamteam + Matthias Ranner “Arbeitstitel” anschließend Artist Talk</td>
+                            <td class="font-body italic pb-0_5">Dreamteam + Matthias Ranner “Arbeitstitel” anschließend Artist Talk</td>
                           </tr>
                           <tr>
-                            <td style="padding-bottom: 8px; font-family: Europa Grotesk SH, Arial Black, sans-serif;">Studio MusikFabrik im Mediapark</td>
+                            <td class="font-display pb-2">Studio MusikFabrik im Mediapark</td>
                           </tr>
                         </table>
                         <div>
@@ -249,10 +385,10 @@
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                          <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                            <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                          <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                            <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                             <span style="mso-text-raise: 16px">Tickets</span>
-                            <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                            <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                           </a>
                           <!--[if mso]></v:roundrect><![endif]-->
                         </div>
@@ -262,54 +398,54 @@
                 </table>
                 <div role="separator" style="true">&zwj;</div>
                 <div role="separator" style="line-height: NaN;border-top:3px solid #000000;{{}}">&zwj;</div>
-                <h2 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 24px; line-height: 12px; color: #0f172a">PLAYLIST</h2>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">Zum Abtauchen in kollektive Traumwelten, gibt es für euch wieder die Möglichkeit, Stücke zu unserer öffentlichen Playlist beizutragen, die in den Proben und in Ausschnitten auch auf der Bühne verwendet werden. Folgt dazu einfach diesem Link;</p>
+                <h2>PLAYLIST</h2>
+                <p>Zum Abtauchen in kollektive Traumwelten, gibt es für euch wieder die Möglichkeit, Stücke zu unserer öffentlichen Playlist beizutragen, die in den Proben und in Ausschnitten auch auf der Bühne verwendet werden. Folgt dazu einfach diesem Link;</p>
                 <div>
                   <!--[if mso]>
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                  <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                    <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                  <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                     <span style="mso-text-raise: 16px">Playlist</span>
-                    <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                   </a>
                   <!--[if mso]></v:roundrect><![endif]-->
                 </div>
                 <div role="separator" style="true">&zwj;</div>
                 <div role="separator" style="line-height: NaN;border-top:3px solid #000000;{{}}">&zwj;</div>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">Wir sind sehr dankbar, einen Portraitfilm zu präsentieren, den unsere langjährigen Förderer der InSzene-Stiftung des Deutschen Musikrats produziert haben. Er zeigt die Perspektiven von uns Ensemblemitgliedern auf <span style="font-family: Europa Grotesk SH, Arial Black, sans-serif;">UBU</span> und unsere Gedanken zu Musik, Tanz, Kostüm und allem was dazwischen schwebt.
+                <p>Wir sind sehr dankbar, einen Portraitfilm zu präsentieren, den unsere langjährigen Förderer der InSzene-Stiftung des Deutschen Musikrats produziert haben. Er zeigt die Perspektiven von uns Ensemblemitgliedern auf <span class="font-display">UBU</span> und unsere Gedanken zu Musik, Tanz, Kostüm und allem was dazwischen schwebt.
                   Hier könnt ihr euch das Portrait Video anschauen.</p>
                 <div>
                   <!--[if mso]>
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                  <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                    <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                  <a href="http://www.google.de" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                     <span style="mso-text-raise: 16px">hier anschauen</span>
-                    <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                   </a>
                   <!--[if mso]></v:roundrect><![endif]-->
                 </div>
                 <div role="separator" style="true">&zwj;</div>
                 <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;"><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/hero-image.jpg" alt="Ubu-Ensemblefoto" width="600" height="300" object style="max-width: 100%; vertical-align: middle;"></p>
+                <p><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/hero-image.jpg" alt="Ubu-Ensemblefoto" width="600" height="300" object></p>
               </td>
             </tr>
           </table>
         </td>
       </tr>
       <tr>
-        <td class="sm-px-4" style="padding-left: 32px; padding-right: 32px">
-          <table style="width: 100%;" cellpadding="0" cellspacing="0" role="none">
+        <td class="px-8 sm-px-4">
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="sm-block sm-w-full sm-pb-8" style="vertical-align: top">
-                <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="100" class="sm-w-12" alt="Maizzle" style="max-width: 100%; vertical-align: middle">
+              <td class="align-top sm-block sm-w-full sm-pb-8">
+                <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="100" class="sm-w-12" alt="Maizzle">
               </td>
-              <td class="sm-block sm-w-full sm-px-0" style="padding-left: 32px; padding-right: 32px">
-                <p style="line-height: 24px; margin: 0 0 8px; text-align: right; font-size: 14px;">
-                  <span style="font-family: Europa Grotesk SH, Arial Black, sans-serif;">UBU</span> e.V. Ensemble für neue Konzertperformances
+              <td class="sm-block sm-w-full px-8 sm-px-0">
+                <p class="m-0 mb-2 text-sm text-right">
+                  <span class="font-display">UBU</span> e.V. Ensemble für neue Konzertperformances
                   <br>
                   Anna Neubert
                   <br>
@@ -321,14 +457,14 @@
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                  <a href="mailto:info@ensembleubu.com" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                    <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                  <a href="mailto:info@ensembleubu.com" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                     <span style="mso-text-raise: 16px">info@ensembleubu.com</span>
-                    <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                   </a>
                   <!--[if mso]></v:roundrect><![endif]-->
                 </div>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;"></p>
+                <p></p>
               </td>
             </tr>
           </table>

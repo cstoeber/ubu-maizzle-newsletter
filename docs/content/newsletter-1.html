@@ -24,65 +24,232 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" media="screen">
   <style>
+    body {
+      font-family: Suisse Works, Georgia, ui-serif;
+      color: #000001
+    }
+    h1 {
+      font-family: Europa Grotesk SH, Arial Black, sans-serif;
+      font-size: 30px;
+      line-height: 16px;
+      color: #0f172a
+    }
+    h2 {
+      font-family: Europa Grotesk SH, Arial Black, sans-serif;
+      font-size: 24px;
+      line-height: 12px;
+      color: #0f172a
+    }
     h3 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 20px;
       line-height: 8px;
       color: #0f172a;
       margin: 0;
-      margin-bottom: 16px;
+      margin-bottom: 16px
     }
     h4 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 18px;
       line-height: 24px;
-      color: #0f172a;
+      color: #0f172a
     }
     h5 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 16px;
       line-height: 20px;
-      color: #0f172a;
+      color: #0f172a
     }
     h6 {
       font-family: Europa Grotesk SH, Arial Black, sans-serif;
       font-size: 16px;
       line-height: 20px;
       text-transform: uppercase;
-      color: #0f172a;
+      color: #0f172a
     }
     @media (max-width: 600px) {
       h1 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 24px !important;
-        line-height: 32px !important;
+        line-height: 32px !important
       }
       h2 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 20px !important;
-        line-height: 28px !important;
+        line-height: 28px !important
       }
       h3 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 18px !important;
-        line-height: 24px !important;
+        line-height: 24px !important
       }
       h4 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
         font-size: 16px !important;
-        line-height: 20px !important;
+        line-height: 20px !important
       }
       h5 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
-        font-size: 14px !important;
+        font-size: 14px !important
       }
       h6 {
         font-family: Europa Grotesk SH, Arial Black, sans-serif;
-        font-size: 14px !important;
+        font-size: 14px !important
       }
     }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      margin-bottom: 16px
+    }
+    ul,
+    ol {
+      line-height: 24px
+    }
+    blockquote {
+      margin: 0;
+      margin-bottom: 32px;
+      padding-left: 16px;
+      border-left: 4px solid
+    }
+    blockquote p {
+      margin: 0;
+      font-size: 18px;
+      line-height: 28px
+    }
+    hr {
+      height: 1px;
+      border-width: 0px;
+      background-color: #cbd5e1;
+      color: #cbd5e1;
+      margin-top: 32px;
+      margin-bottom: 32px
+    }
+    a {
+      display: block;
+      border-radius: 6px;
+      border-width: 1px
+    }
+    img {
+      max-width: 100%;
+      vertical-align: middle
+    }
+    pre {
+      margin-bottom: 24px;
+      overflow: auto;
+      white-space: pre;
+      border-radius: 8px;
+      padding: 24px;
+      text-align: left;
+      font-family: ui-monospace, Menlo, Consolas, monospace;
+      font-size: 16px;
+      color: #cbd5e1;
+      hyphens: none;
+      tab-size: 2;
+      word-break: normal;
+      word-spacing: normal;
+      word-wrap: normal
+    }
+    :not(pre) > code {
+      border-radius: 4px;
+      padding-left: 6px;
+      padding-right: 6px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      white-space: normal;
+      font-size: 14px;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #e2e8f0;
+      background-color: #f8fafc;
+      color: #ec4899
+    }
+    .m-0 {
+      margin: 0 !important
+    }
+    .mb-2 {
+      margin-bottom: 8px !important
+    }
+    .mb-5 {
+      margin-bottom: 20px !important
+    }
+    .mb-8 {
+      margin-bottom: 32px !important
+    }
+    .w-600px {
+      width: 600px !important
+    }
+    .w-full {
+      width: 100% !important
+    }
+    .max-w-0 {
+      max-width: 0 !important
+    }
+    .max-w-full {
+      max-width: 100% !important
+    }
+    .rounded-xl {
+      border-radius: 12px !important
+    }
+    .bg-_ffffff {
+      background-color: #ffffff !important
+    }
+    .bg-white {
+      background-color: #fffffe !important
+    }
+    .p-0 {
+      padding: 0 !important
+    }
+    .px-5 {
+      padding-left: 20px !important;
+      padding-right: 20px !important
+    }
+    .px-8 {
+      padding-left: 32px !important;
+      padding-right: 32px !important
+    }
+    .pb-5 {
+      padding-bottom: 20px !important
+    }
+    .pb-8 {
+      padding-bottom: 32px !important
+    }
+    .text-center {
+      text-align: center !important
+    }
+    .text-right {
+      text-align: right !important
+    }
+    .align-top {
+      vertical-align: top !important
+    }
     .font-body {
-      font-family: Suisse Works, Georgia, ui-serif !important;
+      font-family: Suisse Works, Georgia, ui-serif !important
+    }
+    .font-display {
+      font-family: Europa Grotesk SH, Arial Black, sans-serif !important
+    }
+    .text-sm {
+      font-size: 14px !important
+    }
+    .text-black {
+      color: #000001 !important
+    }
+    .mso-font-width-150pc {
+      mso-font-width: 150%
+    }
+    .-webkit-font-smoothing-antialiased {
+      -webkit-font-smoothing: antialiased !important
+    }
+    .border-left-3px_solid__000 {
+      border-left: 3px solid #000 !important
+    }
+    .border-right-3px_solid__000 {
+      border-right: 3px solid #000 !important
+    }
+    .word-break-break-word {
+      word-break: break-word !important
     }
     @font-face {
       font-family: 'Europa Grotesk SH';
@@ -98,94 +265,102 @@
       font-weight: 700;
       font-style: normal;
     }
+    p,
+    h1,
+    h2,
+    h3,
+    li,
+    td {
+      color: #000000 !important;
+    }
     @media (max-width: 600px) {
       .sm-block {
-        display: block !important;
+        display: block !important
       }
       .sm-w-12 {
-        width: 48px !important;
+        width: 48px !important
       }
       .sm-w-full {
-        width: 100% !important;
+        width: 100% !important
       }
       .sm-px-0 {
         padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-right: 0 !important
       }
       .sm-px-4 {
         padding-left: 16px !important;
-        padding-right: 16px !important;
+        padding-right: 16px !important
       }
       .sm-pb-8 {
-        padding-bottom: 32px !important;
+        padding-bottom: 32px !important
       }
     }
   </style>
 </head>
-<body style="font-family: Suisse Works, Georgia, ui-serif; margin: 0; width: 100%; background-color: #ffffff; padding: 0; color: #000001; -webkit-font-smoothing: antialiased; word-break: break-word;">
-  <div align="center" role="article" aria-roledescription="email" lang="en" class="sm-px-4" aria-label="Edition #1: Using Markdown to create HTML emails with Maizzle" style="background-color: #ffffff">
+<body class="text-black m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-_ffffff">
+  <div align="center" role="article" aria-roledescription="email" lang="en" class="sm-px-4 bg-_ffffff" aria-label="Edition #1: Using Markdown to create HTML emails with Maizzle">
     <div role="separator" style="true">&zwj;</div>
     <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
-    <table style="border-left: 3px solid #000; border-right: 3px solid #000;" cellpadding="0" cellspacing="0" role="none">
+    <table class="border-left-3px_solid__000 border-right-3px_solid__000" cellpadding="0" cellspacing="0" role="none">
       <tr>
-        <td style="width: 600px; max-width: 100%; border-radius: 12px; background-color: #fffffe; padding-bottom: 32px; color: #000001;">
-          <table style="width: 100%;" cellpadding="0" cellspacing="0" role="none">
+        <td class="w-600px max-w-full pb-8 bg-white rounded-xl text-black">
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="sm-px-4" style="max-width: 0; padding-left: 20px; padding-right: 20px">
-                <div style="text-align: center;">
-                  <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="300" alt="Maizzle" style="max-width: 100%; vertical-align: middle; padding-bottom: 20px;">
+              <td class="px-5 sm-px-4 max-w-0">
+                <div class="text-center">
+                  <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="300" alt="Maizzle" class="pb-5">
                   <div role="separator" style="true">&zwj;</div>
                   <div role="separator" style="line-height: NaN;border-top:3px solid #000000;{{}}">&zwj;</div>
                 </div>
               </td>
             </tr>
           </table>
-          <table style="width: 100%;" cellpadding="0" cellspacing="0" role="none">
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="sm-px-4" style="max-width: 0; padding-left: 20px; padding-right: 20px">
-                <h1 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 30px; line-height: 16px; color: #0f172a; margin: 0 0 20px">Edition #1: Using Markdown to create HTML emails with Maizzle</h1>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;"><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/feature.jpg" alt="Spaceman on planet surface" width="536" style="max-width: 100%; vertical-align: middle;"></p>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">This is a <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/insignia.png" alt="M" width="20" style="max-width: 100%; vertical-align: middle;">arkdown starter project that will help you get started with creating newsletter email templates from Markdown files in Maizzle.</p>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">It supports all the framework features you already know and love:</p>
-                <ul style="line-height: 24px;">
+              <td class="px-5 sm-px-4 max-w-0">
+                <h1 class="m-0 mb-5">Edition #1: Using Markdown to create HTML emails with Maizzle</h1>
+                <p><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/feature.jpg" alt="Spaceman on planet surface" width="536"></p>
+                <p>This is a <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/insignia.png" alt="M" width="20">arkdown starter project that will help you get started with creating newsletter email templates from Markdown files in Maizzle.</p>
+                <p>It supports all the framework features you already know and love:</p>
+                <ul>
                   <li>Tailwind CSS</li>
                   <li>components</li>
                   <li>expressions</li>
                   <li>conditionals, loops etc.</li>
                 </ul>
-                <h2 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 24px; line-height: 12px; color: #0f172a">Ordered lists</h2>
-                <ol style="line-height: 24px;">
+                <h2>Ordered lists</h2>
+                <ol>
                   <li><em>Italics</em></li>
                   <li><strong>Bold text</strong></li>
-                  <li><a href="https://maizzle.com" style="display: block; border-radius: 6px; border-width: 1px;">Links</a></li>
+                  <li><a href="https://maizzle.com">Links</a></li>
                 </ol>
-                <hr style="height: 1px; border-width: 0px; background-color: #cbd5e1; color: #cbd5e1; margin-top: 32px; margin-bottom: 32px;">
-                <h2 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 24px; line-height: 12px; color: #0f172a">Components</h2>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">You can import Maizzle components right into your Markdown files. For example, the following button is a component:</p>
+                <hr>
+                <h2>Components</h2>
+                <p>You can import Maizzle components right into your Markdown files. For example, the following button is a component:</p>
                 <div>
                   <!--[if mso]>
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                  <a href="https://maizzle.com/guides/markdown-emails" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; margin-bottom: 32px; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                    <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                  <a href="https://maizzle.com/guides/markdown-emails" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display mb-8">
+                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                     <span style="mso-text-raise: 16px">Read the guide &rarr;</span>
-                    <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                   </a>
                   <!--[if mso]></v:roundrect><![endif]-->
                 </div>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">That's the <code style="border-radius: 4px; padding: 2px 6px; white-space: normal; font-size: 14px; border: 1px solid #e2e8f0; background-color: #f8fafc; color: #ec4899;">x-button</code> component, defined in <code style="border-radius: 4px; padding: 2px 6px; white-space: normal; font-size: 14px; border: 1px solid #e2e8f0; background-color: #f8fafc; color: #ec4899;">components/button.html</code></p>
-                <hr style="height: 1px; border-width: 0px; background-color: #cbd5e1; color: #cbd5e1; margin-top: 32px; margin-bottom: 32px;">
-                <h2 style="font-family: Europa Grotesk SH, Arial Black, sans-serif; font-size: 24px; line-height: 12px; color: #0f172a">Styling</h2>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">The starter includes CSS styles for common elements like paragraphs, headings, links, images, lists, <code style="border-radius: 4px; padding: 2px 6px; white-space: normal; font-size: 14px; border: 1px solid #e2e8f0; background-color: #f8fafc; color: #ec4899;">inline code</code>, or blockquotes:</p>
-                <blockquote style="margin: 0 0 32px; padding-left: 16px; border-left: 4px solid;">
-                  <p style="margin: 0; font-size: 18px; line-height: 28px;">One small step for man, one giant leap for mankind.</p>
+                <p>That's the <code>x-button</code> component, defined in <code>components/button.html</code></p>
+                <hr>
+                <h2>Styling</h2>
+                <p>The starter includes CSS styles for common elements like paragraphs, headings, links, images, lists, <code>inline code</code>, or blockquotes:</p>
+                <blockquote>
+                  <p>One small step for man, one giant leap for mankind.</p>
                 </blockquote>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">It even supports code blocks:</p>
-                <pre style="margin-bottom: 24px; overflow: auto; white-space: pre; border-radius: 8px; padding: 24px; text-align: left; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 16px; hyphens: none; tab-size: 2; word-break: normal; word-spacing: normal; word-wrap: normal; background-color: #1a1b26; color: #a9b1d6;" tabindex="0"><code class="language-html"><span><span style="color:#BA3C97">&#x3C;</span><span style="color:#F7768E">p</span><span style="color:#BB9AF7"> class</span><span style="color:#89DDFF">=</span><span style="color:#89DDFF">"</span><span style="color:#9ECE6A">text-lg</span><span style="color:#89DDFF">"</span><span style="color:#BA3C97">></span></span>
+                <p>It even supports code blocks:</p>
+                <pre style="background-color:#1a1b26;color:#a9b1d6" tabindex="0"><code class="language-html"><span><span style="color:#BA3C97">&#x3C;</span><span style="color:#F7768E">p</span><span style="color:#BB9AF7"> class</span><span style="color:#89DDFF">=</span><span style="color:#89DDFF">"</span><span style="color:#9ECE6A">text-lg</span><span style="color:#89DDFF">"</span><span style="color:#BA3C97">></span></span>
 <span><span style="color:#BA3C97">  &#x3C;</span><span style="color:#F7768E">a</span><span style="color:#BB9AF7"> href</span><span style="color:#89DDFF">=</span><span style="color:#89DDFF">"</span><span style="color:#9ECE6A">https://maizzle.com</span><span style="color:#89DDFF">"</span><span style="color:#BA3C97">></span><span style="color:#9AA5CE">Maizzle</span><span style="color:#BA3C97">&#x3C;/</span><span style="color:#F7768E">a</span><span style="color:#BA3C97">></span><span style="color:#9AA5CE"> is a framework for building responsive HTML emails with Tailwind CSS.</span></span>
 <span><span style="color:#BA3C97">&#x3C;/</span><span style="color:#F7768E">p</span><span style="color:#BA3C97">></span></span></code></pre>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;">Cheers,<br>
+                <p>Cheers,<br>
                   The Maizzle Team</p>
               </td>
             </tr>
@@ -193,15 +368,15 @@
         </td>
       </tr>
       <tr>
-        <td class="sm-px-4" style="padding-left: 32px; padding-right: 32px">
-          <table style="width: 100%;" cellpadding="0" cellspacing="0" role="none">
+        <td class="px-8 sm-px-4">
+          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="sm-block sm-w-full sm-pb-8" style="vertical-align: top">
-                <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="100" class="sm-w-12" alt="Maizzle" style="max-width: 100%; vertical-align: middle">
+              <td class="align-top sm-block sm-w-full sm-pb-8">
+                <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="100" class="sm-w-12" alt="Maizzle">
               </td>
-              <td class="sm-block sm-w-full sm-px-0" style="padding-left: 32px; padding-right: 32px">
-                <p style="line-height: 24px; margin: 0 0 8px; text-align: right; font-size: 14px;">
-                  <span style="font-family: Europa Grotesk SH, Arial Black, sans-serif;">UBU</span> e.V. Ensemble für neue Konzertperformances
+              <td class="sm-block sm-w-full px-8 sm-px-0">
+                <p class="m-0 mb-2 text-sm text-right">
+                  <span class="font-display">UBU</span> e.V. Ensemble für neue Konzertperformances
                   <br>
                   Anna Neubert
                   <br>
@@ -213,14 +388,14 @@
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                  <a href="mailto:info@ensembleubu.com" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black; font-family: Europa Grotesk SH, Arial Black, sans-serif;">
-                    <!--[if mso]><i style="mso-font-width: 150%; mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                  <a href="mailto:info@ensembleubu.com" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
                     <span style="mso-text-raise: 16px">info@ensembleubu.com</span>
-                    <!--[if mso]><i hidden style="mso-font-width: 150%;">&emsp;&#8203;</i><![endif]-->
+                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
                   </a>
                   <!--[if mso]></v:roundrect><![endif]-->
                 </div>
-                <p style="font-size: 16px; line-height: 24px; margin: 0 0 16px;"></p>
+                <p></p>
               </td>
             </tr>
           </table>
