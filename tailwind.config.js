@@ -11,7 +11,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
         body: ['Suisse Works', 'Georgia', 'ui-serif'],
         display: ['Europa Grotesk SH', 'Arial Black', 'sans-serif'],
         ubu: ['UBU Logotype', 'Arial Black', 'sans-serif'],
