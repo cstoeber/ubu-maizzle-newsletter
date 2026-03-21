@@ -1,0 +1,112 @@
+<!DOCTYPE {{{ page.doctype || 'html' }}}>
+<html lang="{{ page.language || 'en' }}" xmlns:v="urn:schemas-microsoft-com:vml">
+
+<head>
+  <meta charset="{{ page.charset || 'utf-8' }}">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no, url=no">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings xmlns:o="urn:schemas-microsoft-com:office:office">
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <style>
+    td,th,div,p,a,h1,h2,h3,h4,h5,h6 {font-family: "Segoe UI", sans-serif; mso-line-height-rule: exactly;}
+    .mso-break-all {word-break: break-all;}
+  </style>
+  <![endif]-->
+  <if condition="page.title">
+    <title>{{{ page.title }}}</title>
+  </if>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" media="screen">
+  <style>
+    @import "css/markdown.css";
+    @tailwind components;
+    @tailwind utilities;
+  </style>
+  <stack name="head" />
+</head>
+
+<body
+  class="m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] {{ page.bodyClass || 'bg-[#ffffff]' }}">
+  <if condition="page.preheader">
+    <div class="hidden">
+      {{{ page.preheader }}}
+      <each loop="item in Array.from(Array(150))">&#8199;&#65279;&#847; </each>
+    </div>
+  </if>
+
+  <div align="center" role="article" aria-roledescription="email" lang="{{ page.language || 'en' }}"
+    class="sm:px-4 {{ page.bodyClass || 'bg-[#ffffff]' }}" aria-label="{{{ page.title || '' }}}">
+
+    <x-spacer height="40px"/>
+    <table class="[border-left:3px_solid_#000] [border-right:3px_solid_#000]">
+      <tr>
+        <td class="w-[600px] max-w-full pb-8 bg-white rounded-xl">
+
+
+          <table class="w-full">
+            <tr>
+              <td class="px-5 sm:px-4 max-w-0">
+                <div class="text-center">
+                  <img src="Ubu Newsletter.png" width="300" alt="Maizzle" class="pb-5">
+                  <x-spacer height="20px" line="3" />
+                </div>
+              </td>
+            </tr>
+          </table>
+
+
+          
+          <table class="w-full">
+            <tr>
+              <td class="px-5 sm:px-4 max-w-0">
+                <yield />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr role="separator">
+        <td class="leading-10">&zwj;</td>
+      </tr>
+      <tr>
+        <td class="px-8 sm:px-4">
+          <table class="w-full">
+            <tr>
+              <td class="align-top sm:block sm:w-full sm:pb-8">
+                <img src="Ubu Newsletter.png" width="100" class="sm:w-12" alt="Maizzle">
+              </td>
+              <td class="sm:block sm:w-full px-8 sm:px-0">
+                <p class="m-0 mb-2 text-sm text-right">
+                  <span class="font-display">UBU</span> e.V. Ensemble für neue Konzertperformances
+
+                  <br>
+                  Anna Neubert
+                  <br>
+Nußbaumerstraße 252<br>
+50825 Köln<br>
+
+<x-button href="mailto:info@ensembleubu.com">info@ensembleubu.com</x-button>
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+
+    <x-spacer height="40px" />
+  </div>
+</body>
+
+</html>

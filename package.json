@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "maizzle serve",
+    "build": "maizzle build production"
+  },
+  "dependencies": {
+    "@maizzle/framework": "latest",
+    "@shikijs/markdown-it": "^3.7.0",
+    "markdown-it-attrs": "^4.3.1",
+    "shiki": "^3.7.0",
+    "tailwindcss-preset-email": "latest"
+  }
+}

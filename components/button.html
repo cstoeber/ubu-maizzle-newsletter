@@ -1,0 +1,52 @@
+<script props>
+  // https://maizzle.com/docs/components/button
+  let align = {
+    left: 'text-left',
+    center: 'text-center',
+    right: 'text-right',
+  }[props.align] || ''
+
+  let styles = [
+    'display: inline-block;',
+    'text-decoration: none;',
+    'padding: 4px 8px;',
+    'font-size: 16px;',
+    'line-height: 1;',
+    'border-radius: 20px;',
+    'border-color: black;',
+    'border-width: 1px;',
+    'border-style: solid;',
+    'background-color: #FFFFFFF;',
+    'color: black'
+  ]
+
+  module.exports = {
+    align,
+    href: props.href,
+    styles: styles.join(''),
+    msoPt: props['mso-pt'] || '16px',
+    msoPb: props['mso-pb'] || '31px',
+  }
+</script>
+
+<div class="{{ align }}">
+  <!--[if mso]>
+<v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
+  stroke="f" fillcolor="#1d4ed8">
+<![endif]-->
+  <a
+    attributes
+    href="{{{ href }}}"
+    style="{{ styles }}"
+    class="font-display"
+  >
+    <outlook trim>
+      <i class="mso-font-width-[150%]" style="mso-text-raise: {{ msoPb }};" hidden>&emsp;</i>
+    </outlook>
+    <span style="mso-text-raise: {{ msoPt }}" trim><yield /></span>
+    <outlook trim>
+      <i class="mso-font-width-[150%]" hidden>&emsp;&#8203;</i>
+    </outlook>
+  </a>
+  <!--[if mso]></v:roundrect><![endif]-->
+</div>

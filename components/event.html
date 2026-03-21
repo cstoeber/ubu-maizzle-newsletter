@@ -1,0 +1,25 @@
+<script props>
+  module.exports = {
+    date: props.date || '21.12.2023',
+    time: props.time || 'default',
+    title: props.title || 'default title',
+    location: props.location || 'default title'
+  }
+</script>
+
+<div>
+  <table>
+    <tr>
+      <td class="font-body text-lg pb-0.5">{{ date }}, {{ time }}</td>
+    </tr>
+    <tr>
+      <td class="font-body italic pb-0.5">{{ title }}</td>
+    </tr>
+    <tr>
+      <td class="font-display pb-2">{{ location }}</td>
+    </tr>
+  </table>
+  
+  
+  <x-button href="http://www.google.de">Tickets</x-button>
+</div>
