@@ -177,6 +177,9 @@
     .mb-8 {
       margin-bottom: 32px !important
     }
+    .w-4 {
+      width: 16px !important
+    }
     .w-600px {
       width: 600px !important
     }
@@ -192,8 +195,11 @@
     .rounded-xl {
       border-radius: 12px !important
     }
-    .bg-_ffffff {
-      background-color: #ffffff !important
+    .bg-_b4b4b4 {
+      background-color: #b4b4b4 !important
+    }
+    .bg-_f3f3f3 {
+      background-color: #f3f3f3 !important
     }
     .bg-white {
       background-color: #fffffe !important
@@ -265,6 +271,13 @@
       font-weight: 700;
       font-style: normal;
     }
+    @font-face {
+      font-family: 'UBU Logotype';
+      src: url('https://cstoeber.github.io/ubu-maizzle-newsletter/assets/UBU-Logotype-v1-Regular.woff2') format('woff2'),
+        url('https://cstoeber.github.io/ubu-maizzle-newsletter/assets/UBU-Logotype-v1-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
     p,
     h1,
     h2,
@@ -297,113 +310,120 @@
     }
   </style>
 </head>
-<body class="text-black m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-_ffffff">
-  <div align="center" role="article" aria-roledescription="email" lang="en" class="sm-px-4 bg-_ffffff" aria-label="Edition #1: Using Markdown to create HTML emails with Maizzle">
-    <div role="separator" style="true">&zwj;</div>
-    <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
-    <table class="border-left-3px_solid__000 border-right-3px_solid__000" cellpadding="0" cellspacing="0" role="none">
+<body class="text-black m-0 p-0 w-full word-break-break-word -webkit-font-smoothing-antialiased bg-_b4b4b4">
+  <div align="center" role="article" aria-roledescription="email" lang="en" class="sm-px-4 bg-_f3f3f3" aria-label="Edition #1: Using Markdown to create HTML emails with Maizzle">
+    <table class="w-600px bg-white" cellpadding="0" cellspacing="0" role="none">
       <tr>
-        <td class="w-600px max-w-full pb-8 bg-white rounded-xl text-black">
-          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
+        <td class="w-4"></td>
+        <td>
+          <table class="border-left-3px_solid__000 border-right-3px_solid__000" cellpadding="0" cellspacing="0" role="none">
             <tr>
-              <td class="px-5 sm-px-4 max-w-0">
-                <div class="text-center">
-                  <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="300" alt="Maizzle" class="pb-5">
-                  <div role="separator" style="true">&zwj;</div>
-                  <div role="separator" style="line-height: NaN;border-top:3px solid #000000;{{}}">&zwj;</div>
-                </div>
-              </td>
-            </tr>
-          </table>
-          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
-            <tr>
-              <td class="px-5 sm-px-4 max-w-0">
-                <h1 class="m-0 mb-5">Edition #1: Using Markdown to create HTML emails with Maizzle</h1>
-                <p><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/feature.jpg" alt="Spaceman on planet surface" width="536"></p>
-                <p>This is a <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/insignia.png" alt="M" width="20">arkdown starter project that will help you get started with creating newsletter email templates from Markdown files in Maizzle.</p>
-                <p>It supports all the framework features you already know and love:</p>
-                <ul>
-                  <li>Tailwind CSS</li>
-                  <li>components</li>
-                  <li>expressions</li>
-                  <li>conditionals, loops etc.</li>
-                </ul>
-                <h2>Ordered lists</h2>
-                <ol>
-                  <li><em>Italics</em></li>
-                  <li><strong>Bold text</strong></li>
-                  <li><a href="https://maizzle.com">Links</a></li>
-                </ol>
-                <hr>
-                <h2>Components</h2>
-                <p>You can import Maizzle components right into your Markdown files. For example, the following button is a component:</p>
-                <div>
-                  <!--[if mso]>
+              <td class="max-w-full pb-8 bg-white rounded-xl text-black">
+                <table class="w-full" cellpadding="0" cellspacing="0" role="none">
+                  <tr>
+                    <td class="px-5 sm-px-4 max-w-0">
+                      <div role="separator" style="true">&zwj;</div>
+                      <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
+                      <div class="text-center">
+                        <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="300" alt="Maizzle" class="pb-5">
+                        <div role="separator" style="true">&zwj;</div>
+                        <div role="separator" style="line-height: NaN;border-top:3px solid #000000;{{}}">&zwj;</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+                <table class="w-full" cellpadding="0" cellspacing="0" role="none">
+                  <tr>
+                    <td class="px-5 sm-px-4 max-w-0">
+                      <h1 class="m-0 mb-5">Edition #1: Using Markdown to create HTML emails with Maizzle</h1>
+                      <p><img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/feature.jpg" alt="Spaceman on planet surface" width="536"></p>
+                      <p>This is a <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/insignia.png" alt="M" width="20">arkdown starter project that will help you get started with creating newsletter email templates from Markdown files in Maizzle.</p>
+                      <p>It supports all the framework features you already know and love:</p>
+                      <ul>
+                        <li>Tailwind CSS</li>
+                        <li>components</li>
+                        <li>expressions</li>
+                        <li>conditionals, loops etc.</li>
+                      </ul>
+                      <h2>Ordered lists</h2>
+                      <ol>
+                        <li><em>Italics</em></li>
+                        <li><strong>Bold text</strong></li>
+                        <li><a href="https://maizzle.com">Links</a></li>
+                      </ol>
+                      <hr>
+                      <h2>Components</h2>
+                      <p>You can import Maizzle components right into your Markdown files. For example, the following button is a component:</p>
+                      <div>
+                        <!--[if mso]>
 <v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
   stroke="f" fillcolor="#1d4ed8">
 <![endif]-->
-                  <a href="https://maizzle.com/guides/markdown-emails" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display mb-8">
-                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
-                    <span style="mso-text-raise: 16px">Read the guide &rarr;</span>
-                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
-                  </a>
-                  <!--[if mso]></v:roundrect><![endif]-->
-                </div>
-                <p>That's the <code>x-button</code> component, defined in <code>components/button.html</code></p>
-                <hr>
-                <h2>Styling</h2>
-                <p>The starter includes CSS styles for common elements like paragraphs, headings, links, images, lists, <code>inline code</code>, or blockquotes:</p>
-                <blockquote>
-                  <p>One small step for man, one giant leap for mankind.</p>
-                </blockquote>
-                <p>It even supports code blocks:</p>
-                <pre style="background-color:#1a1b26;color:#a9b1d6" tabindex="0"><code class="language-html"><span><span style="color:#BA3C97">&#x3C;</span><span style="color:#F7768E">p</span><span style="color:#BB9AF7"> class</span><span style="color:#89DDFF">=</span><span style="color:#89DDFF">"</span><span style="color:#9ECE6A">text-lg</span><span style="color:#89DDFF">"</span><span style="color:#BA3C97">></span></span>
+                        <a href="https://maizzle.com/guides/markdown-emails" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display mb-8">
+                          <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                          <span style="mso-text-raise: 16px">Read the guide &rarr;</span>
+                          <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
+                        </a>
+                        <!--[if mso]></v:roundrect><![endif]-->
+                      </div>
+                      <p>That's the <code>x-button</code> component, defined in <code>components/button.html</code></p>
+                      <hr>
+                      <h2>Styling</h2>
+                      <p>The starter includes CSS styles for common elements like paragraphs, headings, links, images, lists, <code>inline code</code>, or blockquotes:</p>
+                      <blockquote>
+                        <p>One small step for man, one giant leap for mankind.</p>
+                      </blockquote>
+                      <p>It even supports code blocks:</p>
+                      <pre style="background-color:#1a1b26;color:#a9b1d6" tabindex="0"><code class="language-html"><span><span style="color:#BA3C97">&#x3C;</span><span style="color:#F7768E">p</span><span style="color:#BB9AF7"> class</span><span style="color:#89DDFF">=</span><span style="color:#89DDFF">"</span><span style="color:#9ECE6A">text-lg</span><span style="color:#89DDFF">"</span><span style="color:#BA3C97">></span></span>
 <span><span style="color:#BA3C97">  &#x3C;</span><span style="color:#F7768E">a</span><span style="color:#BB9AF7"> href</span><span style="color:#89DDFF">=</span><span style="color:#89DDFF">"</span><span style="color:#9ECE6A">https://maizzle.com</span><span style="color:#89DDFF">"</span><span style="color:#BA3C97">></span><span style="color:#9AA5CE">Maizzle</span><span style="color:#BA3C97">&#x3C;/</span><span style="color:#F7768E">a</span><span style="color:#BA3C97">></span><span style="color:#9AA5CE"> is a framework for building responsive HTML emails with Tailwind CSS.</span></span>
 <span><span style="color:#BA3C97">&#x3C;/</span><span style="color:#F7768E">p</span><span style="color:#BA3C97">></span></span></code></pre>
-                <p>Cheers,<br>
-                  The Maizzle Team</p>
+                      <p>Cheers,<br>
+                        The Maizzle Team</p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td class="px-8 sm-px-4">
+                <table class="w-full" cellpadding="0" cellspacing="0" role="none">
+                  <tr>
+                    <td class="align-top sm-block sm-w-full sm-pb-8">
+                      <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="100" class="sm-w-12" alt="Maizzle">
+                    </td>
+                    <td class="sm-block sm-w-full px-8 sm-px-0">
+                      <p class="m-0 mb-2 text-sm text-right">
+                        <span class="font-display">UBU</span> e.V. Ensemble für neue Konzertperformances
+                        <br>
+                        Anna Neubert
+                        <br>
+                        Nußbaumerstraße 252<br>
+                        50825 Köln<br>
+                      </p>
+                      <div>
+                        <!--[if mso]>
+<v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
+  stroke="f" fillcolor="#1d4ed8">
+<![endif]-->
+                        <a href="mailto:info@ensembleubu.com" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
+                          <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
+                          <span style="mso-text-raise: 16px">info@ensembleubu.com</span>
+                          <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
+                        </a>
+                        <!--[if mso]></v:roundrect><![endif]-->
+                      </div>
+                      <p></p>
+                    </td>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
         </td>
-      </tr>
-      <tr>
-        <td class="px-8 sm-px-4">
-          <table class="w-full" cellpadding="0" cellspacing="0" role="none">
-            <tr>
-              <td class="align-top sm-block sm-w-full sm-pb-8">
-                <img src="https://cstoeber.github.io/ubu-maizzle-newsletter/assets/Ubu Newsletter.png" width="100" class="sm-w-12" alt="Maizzle">
-              </td>
-              <td class="sm-block sm-w-full px-8 sm-px-0">
-                <p class="m-0 mb-2 text-sm text-right">
-                  <span class="font-display">UBU</span> e.V. Ensemble für neue Konzertperformances
-                  <br>
-                  Anna Neubert
-                  <br>
-                  Nußbaumerstraße 252<br>
-                  50825 Köln<br>
-                </p>
-                <div>
-                  <!--[if mso]>
-<v:roundrect arcsize="50%" style="height:48px; mso-wrap-style:none;"
-  stroke="f" fillcolor="#1d4ed8">
-<![endif]-->
-                  <a href="mailto:info@ensembleubu.com" style="display: inline-block; text-decoration: none; padding: 4px 8px; font-size: 16px; line-height: 1; border-radius: 20px; border: 1px solid black; background-color: #FFFFFFF; color: black" class="font-display">
-                    <!--[if mso]><i class="mso-font-width-150pc" style="mso-text-raise: 31px;" hidden>&emsp;</i><![endif]-->
-                    <span style="mso-text-raise: 16px">info@ensembleubu.com</span>
-                    <!--[if mso]><i class="mso-font-width-150pc" hidden>&emsp;&#8203;</i><![endif]-->
-                  </a>
-                  <!--[if mso]></v:roundrect><![endif]-->
-                </div>
-                <p></p>
-              </td>
-            </tr>
-          </table>
+        <td class="w-4">
         </td>
       </tr>
     </table>
-    <div role="separator" style="true">&zwj;</div>
-    <div role="separator" style="line-height: NaN; {{}}">&zwj;</div>
   </div>
 </body>
 </html>

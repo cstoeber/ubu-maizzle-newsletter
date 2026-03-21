@@ -32,28 +32,44 @@
     @tailwind components;
     @tailwind utilities;
 
-  @font-face {
-    font-family: 'Europa Grotesk SH';
-    src: url('EuropaGroteskSH-Bol.woff2') format('woff2'),
-         url('EuropaGroteskSH-Bol.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-  }
-  @font-face {
-    font-family: 'Suisse Works';
-    src: url('SuisseWorks.woff2') format('woff2'),
-         url('SuisseWorks.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-  }
+    @font-face {
+      font-family: 'Europa Grotesk SH';
+      src: url('EuropaGroteskSH-Bol.woff2') format('woff2'),
+        url('EuropaGroteskSH-Bol.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
 
-  p, h1, h2, h3, li, td { color: #000000 !important; }
+    @font-face {
+      font-family: 'Suisse Works';
+      src: url('SuisseWorks.woff2') format('woff2'),
+        url('SuisseWorks.woff') format('woff');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+@font-face {
+      font-family: 'UBU Logotype';
+      src: url('UBU-Logotype-v1-Regular.woff2') format('woff2'),
+        url('UBU-Logotype-v1-Regular.woff') format('woff');
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    li,
+    td {
+      color: #000000 !important;
+    }
   </style>
   <stack name="head" />
 </head>
 
 <body
-  class="text-black m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] {{ page.bodyClass || 'bg-[#ffffff]' }}">
+  class="text-black m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] {{ page.bodyClass || 'bg-[#b4b4b4]' }}">
   <if condition="page.preheader">
     <div class="hidden">
       {{{ page.preheader }}}
@@ -62,27 +78,33 @@
   </if>
 
   <div align="center" role="article" aria-roledescription="email" lang="{{ page.language || 'en' }}"
-    class="sm:px-4 {{ page.bodyClass || 'bg-[#ffffff]' }}" aria-label="{{{ page.title || '' }}}">
+    class="sm:px-4 {{ page.bodyClass || 'bg-[#f3f3f3]' }}" aria-label="{{{ page.title || '' }}}">
 
-    <x-spacer height="40px"/>
-    <table class="[border-left:3px_solid_#000] [border-right:3px_solid_#000]">
+    
+    <table class="w-[600px]  bg-white">
       <tr>
-        <td class="w-[600px] max-w-full pb-8 bg-white rounded-xl text-black">
+        <td class="w-4"></td>
+        <td class=""><table class="[border-left:3px_solid_#000] [border-right:3px_solid_#000]">
+      <tr>
+        <td class=" max-w-full pb-8 bg-white rounded-xl text-black">
 
 
           <table class="w-full">
+
             <tr>
               <td class="px-5 sm:px-4 max-w-0">
+                <x-spacer height="20px" />
                 <div class="text-center">
                   <img src="Ubu Newsletter.png" width="300" alt="Maizzle" class="pb-5">
                   <x-spacer height="20px" line="3" />
                 </div>
               </td>
             </tr>
+
           </table>
 
 
-          
+
           <table class="w-full">
             <tr>
               <td class="px-5 sm:px-4 max-w-0">
@@ -106,20 +128,23 @@
                   <br>
                   Anna Neubert
                   <br>
-Nußbaumerstraße 252<br>
-50825 Köln<br>
+                  Nußbaumerstraße 252<br>
+                  50825 Köln<br>
 
-<x-button href="mailto:info@ensembleubu.com">info@ensembleubu.com</x-button>
+                  <x-button href="mailto:info@ensembleubu.com">info@ensembleubu.com</x-button>
                 </p>
               </td>
             </tr>
           </table>
         </td>
       </tr>
+    </table></td>
+        <td class="w-4">
+      </tr>
+      </td>
+      </tr>
     </table>
-
-
-    <x-spacer height="40px" />
+    
   </div>
 </body>
 
