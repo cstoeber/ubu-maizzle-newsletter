@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'EuropaGroteskSH-Bol';
+    src: url('EuropaGroteskSH-Bol.woff2') format('woff2'),
+        url('EuropaGroteskSH-Bol.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('SuisseWorks-Bold.woff2') format('woff2'),
+        url('SuisseWorks-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Suisse Works';
+    src: url('SuisseWorks.woff2') format('woff2'),
+        url('SuisseWorks.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

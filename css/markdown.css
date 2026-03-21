@@ -12,15 +12,15 @@ body {
 }
 
 h1 {
-  @apply text-3xl/9 text-slate-900 font-display;
+  @apply text-3xl/4 text-slate-900 font-display;
 }
 
 h2 {
-  @apply text-2xl/8 text-slate-900 font-display;
+  @apply text-2xl/3 text-slate-900 font-display;
 }
 
 h3 {
-  @apply text-xl/7 text-slate-900 font-display;
+  @apply text-xl/2 text-slate-900 font-display;
   @apply m-0 mb-4;
 }
 

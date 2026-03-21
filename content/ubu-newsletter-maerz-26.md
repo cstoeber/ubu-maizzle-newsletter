@@ -18,6 +18,8 @@ Wir erinnern uns an viele liebe Weggefährt*Innen und Förderer und sagen jetzt 
 Wir freuen uns, dieses Jahr eine überarbeitete Version unseres Stückes “Dreamteam” bei ORBIT, dem Kölner Festival für Aktuelles Musiktheater zu zeigen. Mit ORBIT wird eine Kunstgattung gefeiert, die vom Blick über den eigenen Tellerrand lebt: Hier wird erprobt, mit den eigenen Grenzen umzugehen und festgefahrene Hör- und Sehgewohnheiten zu hinterfragen. Ein Ort also, an dem wir uns als interdisziplinäres Ensemble zwischen Tanz und Musik sehr willkommen heißen. 
 “Dreamteam” ist eine sportliche Auseinandersetzung mit Schlaf und verbindet surreale Performance mit sample-basierter Improvisation. Unserem Wunsch nach einer mehr und mehr barrierefreien und inklusiven Öffnung unserer Stücke, kommen wir mit dieser Wiederaufführung einen Schritt näher: Matthias Ranner, ein Tauber Musiker aus München, ist zu uns gestoßen und bringt seine Perspektive auf unser Thema “Dreamteam” auf die Bühne. 
 
+<x-spacer height="8px"></x-spacer>
+
 ## TERMINE beim ORBIT Festival
 
   
@@ -46,3 +48,8 @@ Zum Abtauchen in kollektive Traumwelten, gibt es für euch wieder die Möglichke
 
 Wir sind sehr dankbar, einen Portraitfilm zu präsentieren, den unsere langjährigen Förderer der InSzene-Stiftung des Deutschen Musikrats produziert haben. Er zeigt die Perspektiven von uns Ensemblemitgliedern auf <span class="font-display">UBU</span> und unsere Gedanken zu Musik, Tanz, Kostüm und allem was dazwischen schwebt.
 Hier könnt ihr euch das Portrait Video anschauen. <x-button href="http://www.google.de">hier anschauen</x-button>
+
+
+<x-spacer height="20px"></x-spacer>
+
+![Ubu-Ensemblefoto](hero-image.jpg){width=600 height=300 object}

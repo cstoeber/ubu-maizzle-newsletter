@@ -12,8 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', '"Segoe UI"', 'sans-serif'],
-        body: ['Georgia', 'ui-serif'],
-        display: ['Arial Black', 'sans-serif']
+        body: ['Suisse Works', 'Georgia', 'ui-serif'],
+        display: ['Europa Grotesk SH', 'Arial Black', 'sans-serif']
       },
     },
   },

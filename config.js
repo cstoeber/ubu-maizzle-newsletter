@@ -17,8 +17,9 @@ export default {
   build: {
     content: ['content/**/*.md'],
     static: {
-      source: ['images/**/*.*'],
-      destination: 'images',
+      source: ['images/**/*.*', 'fonts/**/*'],
+      destination: 'assets',
+      
     },
   },
   markdown: {
