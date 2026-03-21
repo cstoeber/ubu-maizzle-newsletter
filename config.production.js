@@ -12,7 +12,7 @@
 /** @type {import('@maizzle/framework').Config} */
 export default {
   baseURL: {
-    url: 'https://cstoeber.github.io/ubu-maizzle-newsletter/images/',
+    url: 'https://cstoeber.github.io/ubu-maizzle-newsletter/assets/',
     tags: ['img', 'source'],
   },
   build: {
