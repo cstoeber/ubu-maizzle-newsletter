@@ -12,7 +12,7 @@ title: "NUBUsletter März 2026"
 
 es gibt Träume, die immer wieder kehren…und so feiern wir diesen Monat schon unser 10-jähriges J<span class="font-ubu">UBU</span>läum!
 
-AWas im März 2016 mit einer musikalisch-tänzerischen Neuinterpretaiton von B.A. Zimmermanns Klaviertrio “Présence” startete, hat sich zu einer fortdauernden Erkundungstour der Grenzbereiche zwischen Musik und Tanz entwickelt. 
+Was im März 2016 mit einer musikalisch-tänzerischen Neuinterpretaiton von B.A. Zimmermanns Klaviertrio “Présence” startete, hat sich zu einer fortdauernden Erkundungstour der Grenzbereiche zwischen Musik und Tanz entwickelt. 
 In diesen 10 Jahren kooperierten wir mit fantastischen Künstler*innen wie Vladimir Guicheff Bogacz, Huihui Cheng, Ui Kyung Lee, Naïma Mazic, Diego Ramos Rodríguez, Valerie Wehrens und vielen mehr. 
 Wir spielten bei den Schwetzinger Festspielen, im Konservatorium Athen, beim sounddance Festival in Berlin und waren seit  2022 regelmäßig mit der Reihe “Mutants in Music”  in der TanzFaktur Köln, dem Frankfurt LAB und dem resonanzraum Hamburg zu Gast, wir verbrachten inspirierende Residenzen in der Villa Massimo in Rom und auf dem Buchnerhof in Südtirol.
 
