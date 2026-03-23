@@ -6,12 +6,14 @@ title: "NUBUsletter März 2026"
 
 ### März 2026
 
+<x-spacer height="40px"></x-spacer>
+
 *Liebe Freund\*Innen, liebe Träumer\*Innen,*
 
 Es gibt Träume die kehren immer wieder. Und so erwachen wir nächsten Monat in unserem 10-jährigen J<span class="font-ubu">UBU</span>läum. Angefangen mit einer ersten musikalisch-tänzerischen Interpretation von B. A. Zimmermanns Klaviertrio “Présence”, folgte eine immer kollektivere Herangehensweise, die in der Trilogie “Mutants in Music” mündete. In diesen 10 Jahren kooperierten wir mit fantastischen Künstler*Innen wie Huihui Cheng, Ui Kyung Lee, Naïma Mazic, Diego Ramos Rodríguez, Valerie Wehrens und vielen mehr. 
 Wir spielten bei den Schwetzinger Festspielen, im Konservatorium Athen, beim sounddance Festival in Berlin und seit 2022 die “Mutants in Music” Reihe regelmäßig in Köln, Frankfurt und Hamburg. Außerdem verbrachten wir inspirierende Residenzen in der Villa Massimo in Rom, so wie im Buchnerhof in Südtirol.
 
-![Ubu-Ensemblefoto](hero-image.jpg){width=600 height=300 object}
+![Ubu-Ensemblefoto](ubu-dreamteam.jpg){width=600 object}
 
 Wir erinnern uns an viele liebe Weggefährt*Innen und Förderer und sagen jetzt schon einmal Danke für 10 traumhafte Jahre.
 
@@ -52,4 +54,4 @@ Hier könnt ihr euch das Portrait Video anschauen. <x-button href="http://www.go
 
 <x-spacer height="20px"></x-spacer>
 
-![Ubu-Ensemblefoto](hero-image.jpg){width=600 height=300 object}
+![Ubu-Ensemblefoto](hero-image.jpg){width=600}
