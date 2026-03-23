@@ -43,7 +43,7 @@ Wir freuen uns, dieses Jahr eine überarbeitete Version unseres Stückes “Drea
 
 ## PLAYLIST
 Zum Abtauchen in kollektive Traumwelten, gibt es für euch wieder die Möglichkeit, Stücke zu unserer öffentlichen Playlist beizutragen, die in den Proben und in Ausschnitten auch auf der Bühne verwendet werden. Folgt dazu einfach diesem Link;
-<x-button href="http://www.google.de">Playlist</x-button>
+<x-button href="https://ensembleubu.com/projekte/traeume-mit-uns">Playlist</x-button>
 
 
 <x-spacer height="20px" line="3"></x-spacer>
