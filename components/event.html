@@ -1,5 +1,6 @@
 <script props>
   module.exports = {
+    link: props.link || '#',
     date: props.date || '21.12.2023',
     time: props.time || 'default',
     title: props.title || 'default title',
@@ -21,5 +22,5 @@
   </table>
   
   
-  <x-button href="http://www.google.de">Tickets</x-button>
+  <x-button href="{{ link }}">Tickets</x-button>
 </div>

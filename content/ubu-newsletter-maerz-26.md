@@ -20,7 +20,7 @@ Wir spielten bei den Schwetzinger Festspielen, im Konservatorium Athen, beim sou
 
 Jetzt freuen wir uns sehr mit einem neuen Portraitfilm einen Einblick in das <span class="font-ubu">UBU</span>versum rund um unser Ensemble geben zu können und danken an dieser Stelle ganz herzlich dem InSzene Programm/Podium Gegenwart des Deutschen Musikrats, das uns in den vergangen zwei Jahren ganz maßgeblich unterstützt und diesen Portraitfilm ermöglicht hat. Er zeigt die Perspektiven der Ensemblemitglieder auf <span class="font-ubu">UBU</span> und unsere Gedanken zu Musik, Tanz, Kostüm und allem was dazwischen schwebt.
 Hier geht es direkt zum Video: 
-<x-button href="http://www.google.de">hier anschauen</x-button>
+<x-button href="https://youtu.be/3VDGC4gPjyU">hier anschauen</x-button>
 
 
 <x-spacer height="4" line="3"></x-spacer>
@@ -44,11 +44,11 @@ Die <span class="font-ubu">UBU</span>topie des Ensembles wird diesmal  kommentie
 <table>
     <tr >
         <td valign="top" class="w-1/2">
-            <x-event date="25.04.2026" time="21:00" title="mit anschließendem Umtrunk" location="Studio MusikFabrik im Mediapark">
+            <x-event link="https://t.rausgegangen.de/tickets/mutants-in-music-iii-dreamteam" date="25.04.2026" time="21:00" title="mit anschließendem Umtrunk" location="Studio MusikFabrik im Mediapark">
             </x-event>
         </td>
-        <td valign="top"  class="w-1/2">
-            <x-event date="26.04.2026" time="17:00" title="Dreamteam + Matthias Ranner “Arbeitstitel” anschließend Artist Talk" location="Studio MusikFabrik im Mediapark"> 
+        <td valign="top"  class="w-1/2 pr-2">
+            <x-event link="https://t.rausgegangen.de/tickets/mutants-in-music-iii-dreamteam-1" date="26.04.2026" time="17:00" title="anschließend Artist Talk" location="Studio MusikFabrik im Mediapark"> 
             </x-event>
         </td>
     </tr>
